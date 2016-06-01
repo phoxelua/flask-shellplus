@@ -1,7 +1,7 @@
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.script import Manager
-from flask.ext.shellplus import Shell
+from flask_sqlalchemy import SQLAlchemy
+from flask_script import Manager
+from flask_shellplus import Shell
 
 
 app = Flask(__name__)
