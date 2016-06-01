@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 import six
 from flask import current_app
-from flask.ext.script import Command, Option
+from flask_script import Command, Option
 
 from .utils import import_items, get_sa_models
 
